@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerar Gráfico - Brasília</title>
+    <link rel="icon" type="imagem/png" href="favicon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerar Gráfico de Brasília</h1>
+        <div class="form-group">
+            <label for="cidade">Selecione a cidade:</label>
+            <select id="cidade">
+                <option value="brasilia">Brasília</option>
+            </select>
+        </div>
+        <button id="gerarGrafico">Gerar Gráfico</button>
+        <div id="loader" class="loader" style="display:none;"></div>
+        <div id="grafico-container" style="display:none;">
+            <img id="grafico" src="" alt="Gráfico da cidade de Brasília">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
